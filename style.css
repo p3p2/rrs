@@ -267,3 +267,9 @@ margin: 0px 1px;
         font-size: 20px;
     }
 }
+@media all and (max-width:500px){
+    .texto-principal{
+        height: auto;
+        width: auto;
+    }
+}
