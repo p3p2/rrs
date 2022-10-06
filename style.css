@@ -1,0 +1,285 @@
+/*
+Theme Name: Proyecto web
+Theme URI:
+Author: Javier
+Author URI: 
+Description: Mi tema creado en 2022 está diseñado a mi gusto. Las personas y/o empresas tienen la capacidad de crear páginas de destino dinámicas con diseños interminables utilizando los bloques de grupos y columnas. La columna de contenido centrada y la tipografía afinada también lo hacen perfecto para los blogs tradicionales. Los estilos completos del editor le brindan una buena idea de cómo se verá su contenido, incluso antes de publicarlo. Puede darle a su sitio un toque personal cambiando los colores de fondo y el color de acento en el Personalizador. Los colores de todos los elementos de su sitio se calculan automáticamente en función de los colores que elija, lo que garantiza un contraste de color alto y accesible para sus visitantes.
+Etiquetas: blog, una columna, fondo personalizado, colores personalizados, logotipo personalizado, menú personalizado, estilo de editor, imágenes destacadas.
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: 
+Text Domain: Para la contruccíon.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.padre{
+display: flex;
+flex-flow: column wrap;
+margin: 0px 1px;
+}
+.margen-interno{
+    padding: 0px 50px;
+}
+    .header{
+        background: url(imagenes/Fondo.png);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        border: 4px solid rgb(233, 202, 109);
+    }
+        .menu{
+            background-color: rgba(0, 0, 0, 0.2);
+            display: flex;
+            margin-top: 70px;
+            flex-flow: row nowrap;
+            height: 220px;
+            align-items: center;
+            border:rgb(233, 202, 109) solid 1px;
+        }
+            .logo{
+                flex: 1 1 auto;
+            }
+            .logo a{
+                color: aliceblue;
+                font-size: 30px;
+            }
+            .nav{
+                flex: 1 1 auto;
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .nav a{
+                color: #ffff;
+                font-size: 20px;
+                text-transform: uppercase;
+                padding: 0 30px;
+                letter-spacing: 2px;
+            }
+            .social{
+                flex: 1 1 auto;
+                display: flex;
+            }
+            .social a{
+                font-size: 18px;
+                color: #fff;
+                padding: 0 5px;
+            }
+        .texto-principal{
+            height: 400px;
+            display: flex;
+            align-items: center;
+        }
+            h1{
+                background-color: rgba(12, 22, 77, 0.482);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 30px;
+                color: white;
+                font-weight: 300px;
+                text-align: center;
+                line-height: 1.6;
+            }
+            p{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 21;
+                color: black;
+                font-weight: 300px;
+                text-align: center;
+                line-height: 1.6;
+            }
+    .section{
+        background-color: #f7f7f7;
+        display: flex;
+    }
+        .articulos{
+            background-color: #f7f7f7;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+            border: rgb(233, 202, 109) solid 6px;
+            margin: 10px 10px 10px 10px;
+        }
+            .article{
+                flex: 1 1 auto;
+                color: #444;
+                font-size: 13px;
+                letter-spacing: 1px;
+                margin: 10px 10px 10px 10px;
+                flex: 1 1 45%;
+                background-color: #ececec;
+            }
+            .article img{
+                width: 100%;
+                max-width: 700px;
+            }
+            .article a{
+                color: white;
+                font-size: 13px;
+                padding: 10px;
+                background-color: black;
+                margin: 10px 0px;
+                display: inline-block;
+            }
+            h3{
+                color: black;
+                font-size: 13px;
+                padding: 10px 0;
+                margin-top: -10px;
+            }
+            h2{
+                background-color: rgba(68, 68, 68, 0.072);
+                font-size: 25px;
+                text-transform: uppercase;
+                padding: 10px 0 10px 20px;
+                color: rgb(22, 55, 132);
+                text-align: start;
+            }
+            .navegacion{
+                background-color: black;
+                flex: 1 1 100%;
+                padding: 10px 0px 9px 24px;
+                font-size: 21px;
+                margin: 10px 10px 10px 10px;
+            }
+            .navegacion a{
+                color: white;
+                font-size: 20px;
+                text-transform: uppercase;
+                padding: 0px 10px;
+                letter-spacing: 2px;
+            }
+        .aside{
+            flex: 1 1 auto;
+            margin: 4px 0px 10px 0px;
+        }
+        .aside img{
+            width: 100%;
+        }
+        h4{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+            .publicidad{
+                flex: 1 1;
+                background-color: #ffea85;
+                width: 270px;
+                margin: 6px;
+                border: rgb(233, 202, 109) solid 6px;
+            }
+    .footer{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding: 5px;
+        margin-top: 5px;
+    }
+        .pie{
+            background-color: rgb(219, 182, 18);
+            width: auto;
+            margin-top: 12px;
+        }
+        .pie a{
+            color: white;
+            font-size: 12px;
+            text-transform: uppercase;
+            padding: 0px 10px;
+            letter-spacing: 2px;
+        }
+.container{
+    margin: 6px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+    .texto-pagina{
+        margin: 30px 160px;
+        text-align: justify;
+        font-size: 23px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    @media all and (max-width:1600px){
+        .texto-pagina{
+            margin: 30px 60px;
+    }
+}
+@media all and (max-width:1130px){
+    .section{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .texto-principal{
+        height: 350px;
+    }
+    .texto-pagina{
+        margin: 30px 60px;
+    }
+    .publicidad{
+        flex: 1 1 auto;
+        width: 170px;
+    }
+}
+@media all and (max-width:801px){
+    .articulos{
+        flex-direction: column;
+        }
+        .nav a{
+            font-size: 20px;
+        }
+        .logo img{
+            width: 0px;
+        }
+        .texto-pagina{
+            margin: 30px 6px;
+        }
+}
+@media all and (max-width:400px){
+    .menu{
+        margin-top: 10px;    
+    }
+    h1{
+        font-size: 18px;
+    }
+    .nav a{
+        font-size: 18px;
+    }
+    .aside{
+        flex-direction: column;
+        margin: 0px 50px;
+    }
+    .logo img{
+        width: 0px;
+    }
+    .logo a{
+        font-size: 20px;
+    }
+    .nav img{
+        width: 0px;
+    }
+    .texto-principal h1{
+        font-size: 16px;
+    }
+}
