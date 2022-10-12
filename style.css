@@ -46,7 +46,7 @@ margin: 0px 1px;
             }
             .nav a{
                 color: #ffff;
-                font-size: 16px;
+                font-size: 20px;
                 text-transform: uppercase;
                 padding: 0 30px;
                 letter-spacing: 2px;
@@ -87,13 +87,17 @@ margin: 0px 1px;
             margin: 10px 10px 10px 10px;
         }
             .article{
-                flex: 1 1 auto;
-                color: #444;
                 font-size: 20px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
                 letter-spacing: 1px;
                 margin: 10px 10px 10px 10px;
                 flex: 1 1 35%;
                 background-color: #ececec;
+            }
+            .article p{
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-style: oblique;
+                font-size: 22px;;
             }
             .article img{
                 width: 100%;
@@ -101,10 +105,10 @@ margin: 0px 1px;
             }
             .article a{
                 color: white;
-                font-size: 13px;
-                padding: 10px;
+                font-size: 20x;
+                padding: 5px 120px 5px 5px;
                 background-color: black;
-                margin: 10px 0px;
+                margin: 8px 5px;
                 display: inline-block;
             }
             h3{
