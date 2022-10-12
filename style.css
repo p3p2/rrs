@@ -15,7 +15,7 @@ margin: 0px 1px;
     padding: 0px 50px;
 }
     .header{
-        background: url(imagenes/Fondo.png);
+        background: url(imagenes/piscina13.jpg);
         background-position: center;
         background-attachment: contain;
         background-size: cover;
@@ -33,14 +33,14 @@ margin: 0px 1px;
             border:rgb(233, 202, 109) solid 1px;
         }
             .logo{
-                flex: 1 1 auto;
+                flex: 2 1 auto;
             }
             .logo a{
                 color: aliceblue;
-                font-size: 30px;
+                font-size: 50px;
             }
             .nav{
-                flex: 1 1 auto;
+                
                 display: flex;
                 flex-flow: row wrap;
             }
@@ -50,15 +50,7 @@ margin: 0px 1px;
                 text-transform: uppercase;
                 padding: 0 30px;
                 letter-spacing: 2px;
-            }
-            .social{
-                flex: 1 1 auto;
-                display: flex;
-            }
-            .social a{
-                font-size: 18px;
-                color: #fff;
-                padding: 0 5px;
+                font-size: 25px;
             }
         .texto-principal{
             height: 400px;
@@ -88,7 +80,7 @@ margin: 0px 1px;
     }
         .articulos{
             background-color: #f7f7f7;
-            flex: 2 1 auto;
+            flex: 1 1  auto;
             display: flex;
             flex-flow: row wrap;
             border: rgb(233, 202, 109) solid 6px;
@@ -97,10 +89,10 @@ margin: 0px 1px;
             .article{
                 flex: 1 1 auto;
                 color: #444;
-                font-size: 13px;
+                font-size: 20px;
                 letter-spacing: 1px;
                 margin: 10px 10px 10px 10px;
-                flex: 1 1 45%;
+                flex: 1 1 35%;
                 background-color: #ececec;
             }
             .article img{
@@ -129,20 +121,6 @@ margin: 0px 1px;
                 color: rgb(22, 55, 132);
                 text-align: start;
             }
-            .navegacion{
-                background-color: black;
-                flex: 1 1 100%;
-                padding: 10px 0px 9px 24px;
-                font-size: 21px;
-                margin: 10px 10px 10px 10px;
-            }
-            .navegacion a{
-                color: white;
-                font-size: 20px;
-                text-transform: uppercase;
-                padding: 0px 10px;
-                letter-spacing: 2px;
-            }
         .aside{
             flex: 1 1 auto;
             margin: 4px 0px 10px 0px;
@@ -159,7 +137,7 @@ margin: 0px 1px;
             .publicidad{
                 flex: 1 1;
                 background-color: #ffea85;
-                width: 270px;
+                width: 370px;
                 margin: 6px;
                 border: rgb(233, 202, 109) solid 6px;
             }
@@ -195,12 +173,28 @@ margin: 0px 1px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
-    @media all and (max-width:1600px){
-        .texto-pagina{
-            margin: 30px 60px;
+@media all and (max-width:1630px){
+    .texto-pagina{
+        margin: 30px 60px;
+    }
+    .nav a{
+        font-size:16px;
     }
 }
-@media all and (max-width:1130px){
+@media all and (max-width:1420px){
+    .nav a{
+        font-size:14px;
+    }
+    .logo a{
+        font-size: 14x;
+    }
+}
+@media all and (max-width:1380px){
+    .menu{
+        flex-direction:column;
+    }
+}
+@media all and (max-width:1150px){
     .section{
         flex-direction: column;
     }
@@ -231,13 +225,19 @@ margin: 0px 1px;
         flex-direction: column;
         }
         .nav a{
-            font-size: 20px;
+            font-size: 30px;
         }
         .logo img{
             width: 0px;
         }
         .texto-pagina{
             margin: 30px 6px;
+        }
+        .nav a{
+            font-size:14px;
+        }
+        .logo a{
+            font-size: 14x;
         }
 }
 @media all and (max-width:680px){
@@ -261,7 +261,7 @@ margin: 0px 1px;
         font-size: 20px;
     }
     .nav img{
-        width: 0px;
+        width: 30px;
     }
     .texto-principal h1{
         font-size: 20px;
@@ -271,5 +271,11 @@ margin: 0px 1px;
     .texto-principal{
         height: auto;
         width: auto;
+    }
+    .nav img{
+        width: 20px;
+    }
+    .nav a{
+        font-size: 14px;
     }
 }
