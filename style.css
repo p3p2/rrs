@@ -53,9 +53,13 @@ margin: 0px 1px;
                 font-size: 25px;
             }
         .texto-principal{
-            height: 400px;
+            height: 200px;
             display: flex;
             align-items: center;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            align-content: stretch;
+            justify-content: center;
         }
             h1{
                 background-color: rgba(12, 22, 77, 0.482);
@@ -214,7 +218,7 @@ margin: 0px 1px;
         font-size: 25px;
     }
     .texto-principal{
-        height: 350px;
+        height: 150px;
     }
     .texto-pagina{
         margin: 30px 60px;
@@ -225,7 +229,10 @@ margin: 0px 1px;
     }
 }
 @media all and (max-width:801px){
-    .articulos{
+        .texto-principal{
+            height: 120px;
+        }
+        .articulos{
         flex-direction: column;
         }
         .nav a{
@@ -267,14 +274,27 @@ margin: 0px 1px;
     .nav img{
         width: 30px;
     }
+    .texto-principal{
+        height: 120px;
+    }
     .texto-principal h1{
         font-size: 20px;
     }
 }
 @media all and (max-width:500px){
     .texto-principal{
-        height: auto;
-        width: auto;
+        height: 120px;
+    }
+    .nav img{
+        width: 20px;
+    }
+    .nav a{
+        font-size: 14px;
+    }
+}
+@media all and (max-width:410px){
+    .texto-principal{
+        height: 160px;
     }
     .nav img{
         width: 20px;
