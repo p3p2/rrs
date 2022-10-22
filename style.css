@@ -229,7 +229,7 @@ margin: 0px 1px;
     }
 }
 @media all and (max-width:801px){
-        .texto-principal{
+    .texto-principal{
             height: 120px;
         }
         .articulos{
