@@ -119,8 +119,13 @@ margin: 0px 1px;
             .article a{
                 color: white;
                 font-size: 20x;
-                padding: 5px 120px 5px 5px;
-                background-color: black;
+                padding: 15px 30px 15px 30px;
+                background-color: #163784;
+                display: block;
+            }
+            .article .enlace{
+                padding: 15px 15px 15px 15px;
+                background-color: #ececec;
                 margin: 8px 5px;
                 display: inline-block;
             }
@@ -154,7 +159,7 @@ margin: 0px 1px;
             .publicidad{
                 flex: 1 1;
                 background-color: #ffea85;
-                width: 370px;
+                width: 270px;
                 margin: 6px;
                 border: rgb(233, 202, 109) solid 6px;
             }
@@ -343,4 +348,7 @@ flex-flow: column wrap;
     .nav a{
         font-size: 14px;
     }
+    
 }
+
+
