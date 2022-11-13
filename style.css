@@ -318,6 +318,10 @@ flex-flow: column wrap;
     .nav a{
         font-size: 14px;
     }
+    .texto-pagina{
+        margin: 30px 6px;
+        text-align: left;
+    }
 }
   @media all and (max-width:420px){
     .temp{
