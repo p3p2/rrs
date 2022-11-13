@@ -258,7 +258,7 @@ flex-flow: column wrap;
             font-size: 30px;
         }
         .logo img{
-            width: 0px;
+            width: 70px;
         }
         .texto-pagina{
             margin: 30px 6px;
@@ -289,7 +289,7 @@ flex-flow: column wrap;
         margin: 0px 50px;
     }
     .logo img{
-        width: 0px;
+        width: 60px;
     }
     .logo a{
         font-size: 20px;
