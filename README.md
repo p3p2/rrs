@@ -1,4 +1,4 @@
 # rrs
 Web alicatados
-Poyecto web de reformas.
+Web de reformas.
 https://p3p2.github.io/rrs/
