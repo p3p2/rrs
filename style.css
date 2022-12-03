@@ -153,7 +153,7 @@ margin: 0px 1px;
             }
         .aside{
             flex: 1 1 auto;
-            margin: 4px 0px 10px 0px;
+            margin: 1px 0 0 40px;
         }
         .aside img{
             width: 100%;
@@ -168,8 +168,8 @@ margin: 0px 1px;
                 flex: 1 1;
                 background-color: #ffea85;
                 width: 270px;
-                margin: 6px;
-                border: rgb(233, 202, 109) solid 6px;
+                margin: 9px 20px 50px 30px;
+                border: 6px solid rgb(233, 202, 109);
             }
     .footer{
         background-color: white;
@@ -243,7 +243,7 @@ margin: 0px 1px;
     }
     .aside{
         display: flex;
-        justify-content: center;
+        margin: 0;
     }
     h1{
         font-size: 25px;
@@ -255,8 +255,8 @@ margin: 0px 1px;
         margin: 30px 60px;
     }
     .publicidad{
-        flex: 1 1 auto;
-        width: 170px;
+        margin: 10px 10px;
+        border: 6px solid rgb(233, 202, 109);
     }
 }
 @media all and (max-width:920px) {
@@ -288,7 +288,7 @@ flex-flow: column wrap;
             font-size: 14x;
         }
 }
-@media all and (max-width:680px){
+@media all and (max-width:650px){
   .temp a{
     font-size: 16px;
     display: flex;
@@ -301,10 +301,6 @@ flex-flow: column wrap;
     }
     .nav a{
         font-size: 18px;
-    }
-    .aside{
-        flex-direction: column;
-        margin: 0px 50px;
     }
     .logo img{
         width: 60px;
@@ -322,7 +318,7 @@ flex-flow: column wrap;
         font-size: 20px;
     }
 }
-@media all and (max-width:500px){
+@media all and (max-width:640px){
   .temp a{
     font-size: 13px;
     display: flex;
@@ -335,6 +331,11 @@ flex-flow: column wrap;
     }
     .nav a{
         font-size: 14px;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
     .texto-pagina{
         margin: 30px 6px;
@@ -350,8 +351,8 @@ flex-flow: column wrap;
       display: flex;
     }
     .margen-interno{
-      padding: 0px 0px;
-  }
+        padding: 0px 0px;
+    }
     .texto-principal{
         height: 170px;
     }
@@ -361,7 +362,13 @@ flex-flow: column wrap;
     .nav a{
         font-size: 14px;
     }
-    
+    .aside{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .publicidad{
+        max-width: 200px;
+    }
 }
-
 
