@@ -97,6 +97,26 @@ margin: 0px 1px;
                 text-align: center;
                 line-height: 1.6;
             }
+            .indice {
+                color: blue;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+            .mobile{
+                font-size: left;
+                cursor: pointer;
+                width: 450px;
+            }
+            .mobile .links {
+                display: none;
+            }
+            .mobile:hover .links {
+                display: block;
+            }
+            .mobile p{
+                text-align: left!important;
+                text-decoration: underline;
+            }
     .section{
         background-color: #f7f7f7;
         display: flex;
@@ -322,9 +342,18 @@ flex-flow: column wrap;
     .img-post .img{
         width: 100%;
     }
+        .mobile {
+            font-size: 14px;
+            margin: 30px 6px;
+        }
+    
+        .links {
+            font-size: 14px;
+            margin: 30px 6px;
+        }
 }
 @media all and (max-width:640px){
-  .temp a{
+    .temp a{
     font-size: 13px;
     display: flex;
   }
@@ -342,9 +371,19 @@ flex-flow: column wrap;
         flex-direction: column;
         margin: auto;
     }
+    .margen-interno{
+        padding: 0px 0px;
+    }
     .texto-pagina{
-        margin: 30px 6px;
+        margin: 0px 6px;
         text-align: left;
+    }
+    .mobile{
+        font-size: 14px;
+        margin: 30px 6px;
+    }
+    .links{
+        margin: 30px 6px;
     }
 }
   @media all and (max-width:420px){
@@ -361,6 +400,9 @@ flex-flow: column wrap;
     .texto-principal{
         height: 170px;
     }
+    .texto-pagina{
+        width: auto;
+    }
     .nav img{
         width: 20px;
     }
@@ -374,6 +416,17 @@ flex-flow: column wrap;
     }
     .publicidad{
         max-width: 200px;
+    }
+    .mobile {
+        font-size: 14px;
+        margin: 30px 6px;
+        width: auto;
+    }
+
+    .links {
+        width: auto;
+        font-size: 18px;
+        margin: 30px 6px;
     }
 }
 
