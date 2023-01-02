@@ -1,6 +1,6 @@
 <pre>
-# rrs
+rrs 
 Web alicatados
 Web de reformas.
-<p><a href="https://p3p2.github.io/rrs/"</a>https://p3p2.github.io/rrs/</p>
+<p><a href="https://p3p2.github.io/rrs/" target="_blank" rel="noopener noreferrer">Ver web</a></p>
 </pre>
