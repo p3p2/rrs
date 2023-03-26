@@ -203,8 +203,8 @@ margin: 0px 1px;
                 text-align: center;
             }
             .blanco-negro{
-                color: white;
-                background-color: black;
+                color: lime;
+                /* background-color: limegreen; */
             }
     .footer{
         background-color: white;
@@ -435,7 +435,7 @@ flex-flow: column wrap;
         margin: auto;
     }
     .publicidad{
-        max-width: auto;
+        max-width: auto
     }
     .publicidad-2{
         font-size: 80%;
